@@ -21,13 +21,13 @@ $mail->addAddress($email);
 
 $mail->Subject = "Email de contato!";
 $mail->msgHTML("<html> De: {$nome}<br/>Email: {$email}<br/>Mensagem: {$mensagem}</html>");
-$mail->AltBody = "de: {$nome}\nEmail:{$email}\nMensagem:{$mensagem}"; //Texto alternativo
+$mail->AltBody = "De: {$nome}\nEmail:{$email}\nMensagem:{$mensagem}"; //Texto alternativo
 
 if($mail->send()){
 	$_SESSION["success"] = "Email enviado com sucesso";
 	header("Location: contato.php");
 } else {
-	$_SESSION["danger"] = "Erro ao enviar o email: ".$mail->ErrorInfo;
+	$_SESSION["danger"] = "Erro ao enviar o e-mail: ".$mail->ErrorInfo;
 	header("Location: contato.php");
 }
 
