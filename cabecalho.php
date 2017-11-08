@@ -33,10 +33,11 @@ $usuario = new Usuario();
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					<li class="dropdown">
-        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuário <b class="caret"></b></a>
+        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuário<b class="caret"></b></a>
         				<ul class="dropdown-menu">
           					<li><a href="Usuario-formulario.php">Adicionar</a></li>
           					<li><a href="Usuario-lista.php">Listar</a></li>
+							<li><a href="Usuario-lista.php">Atualizar - Em Desenvolvimento</a></li>
         				</ul>
       				</li>
       				<li class="dropdown">
