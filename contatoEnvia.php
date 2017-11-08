@@ -19,7 +19,7 @@ $mail->Port = 587;
 $mail-> setFrom("conferencia4470@gmail.com","softNew");
 $mail->addAddress($email);
 
-$mail->Subject = "Email de contato!";
+$mail->Subject = "Email de contato - SoftNew!";
 $mail->msgHTML("<html> De: {$nome}<br/>Email: {$email}<br/>Mensagem: {$mensagem}</html>");
 $mail->AltBody = "De: {$nome}\nEmail:{$email}\nMensagem:{$mensagem}"; //Texto alternativo
 
