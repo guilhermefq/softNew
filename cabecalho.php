@@ -28,7 +28,7 @@ $usuario = new Usuario();
 	<nav class="navbar navbar-inverse" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
-				<a href="index.php" class="navbar-brand">softNew 1.1</a>
+				<a href="index.php" class="navbar-brand">softNew 1.2</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
