@@ -5,7 +5,6 @@ spl_autoload_register(function ($nomedaClasse){
 
 $calculaSoma = function($a,$b){ return $a + $b; };
 
-
 error_reporting(E_ALL ^ E_NOTICE);
 require_once 'mostraAlerta.php';
 require_once 'bd.php';
@@ -16,7 +15,7 @@ $usuario = new Usuario();
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>softNew</title>
+	<title>softNew 1.2</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -41,24 +40,25 @@ $usuario = new Usuario();
         				</ul>
       				</li>
       				<li class="dropdown">
-        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Clientes <b class="caret"></b></a>
+        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Clientes<b class="caret"></b></a>
         				<ul class="dropdown-menu">
           					<li><a href="Cliente-formulario.php">Adicionar</a></li>
           					<li><a href="Cliente-lista.php">Listar</a></li>
         				</ul>
       				</li>
 					<li class="dropdown">
-        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Romaneios <b class="caret"></b></a>
+        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Romaneios<b class="caret"></b></a>
         				<ul class="dropdown-menu">
           					<li><a href="Romaneio-formulario.php">Adicionar</a></li>
           					<li><a href="Romaneio-lista.php">Listar</a></li>
         				</ul>
       				</li>
 					<li class="dropdown">
-        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Espécies <b class="caret"></b></a>
+        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Espécies<b class="caret"></b></a>
         				<ul class="dropdown-menu">
           					<li><a href="Especie-formulario.php">Adicionar</a></li>
           					<li><a href="Especie-lista.php">Listar</a></li>
+							<li><a href="Especie-lista.php">Atualizar - Em Desenvolvimento</a></li>
         				</ul>
       				</li>
 					<li><a href="contato.php">Contato</a></li>
