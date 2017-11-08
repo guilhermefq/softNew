@@ -15,7 +15,7 @@ $usuario = new Usuario();
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>softNew 1.2</title>
+	<title>softNew 1.2 - Dev</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
