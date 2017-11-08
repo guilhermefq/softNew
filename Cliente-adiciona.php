@@ -15,15 +15,7 @@ if ($clienteDAO->insereCliente($cliente)){
 	header("Location: Cliente-lista.php");
 	die();
 } else {
-<<<<<<< HEAD
-<<<<<<< HEAD
-	$_SESSION["danger"] = "Erro ao adicionar um novo Cliente!";
-=======
-	$_SESSION["danger"] = "Erro ao adicionar o Usuário!";
->>>>>>> parent of e0f8c65... Alteração da mensagem de erro no Adiciona usuário
-=======
-	$_SESSION["danger"] = "Erro ao adicionar o Usuário!";
->>>>>>> parent of e0f8c65... Alteração da mensagem de erro no Adiciona usuário
+	$_SESSION["danger"] = "Erro ao adicionar o Cliente!";
 	header("Location: Cliente-lista.php");
 	die();
 }
