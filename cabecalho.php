@@ -45,6 +45,7 @@ $usuario = new Usuario();
         				<ul class="dropdown-menu">
           					<li><a href="Cliente-formulario.php">Adicionar</a></li>
           					<li><a href="Cliente-lista.php">Listar</a></li>
+							<li><a href="Cliente-lista.php">Atualizar - Em desenvolvimento</a></li>  
         				</ul>
       				</li>
 					<li class="dropdown">
